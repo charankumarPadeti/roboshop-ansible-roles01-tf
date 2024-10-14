@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.charan.fun
+REDIS_HOST: redis.charan.fun
+MYSQL_HOST: mysql.charan.fun
+RABBITMQ_HOST: rabbitmq.charan.fun
+CATALOGUE_HOST: catalogue.charan.fun
+USER_HOST: user.charan.fun
+CART_HOST: cart.charan.fun
+SHIPPING_HOST: shipping.charan.fun
+PAYMENT_HOST: payment.charan.fun
+DISPATCH_HOST: dispatch.charan.fun

@@ -1,0 +1,13 @@
+- name: "stop the {{component}}"
+  tags:
+  - depoyment
+  ansible.builtin.service:
+    name: "{{component}}"
+    state: stopped
+
+- name: remove the old code
+   tags:
+  - depoyment
+  ansible.builtin.file:
+    path: "/app/*"
+    state: absent
